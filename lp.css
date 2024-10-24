@@ -27,6 +27,7 @@ button {
     padding: 8px 16px;
 }
 
+/*header css*/
 .header {
     display: flex;
     flex-direction: column;
@@ -84,3 +85,45 @@ button {
     align-items: center;
     flex-grow: 1;
 }
+
+/*Random information css*/
+.randInfo {
+    margin: 0 100px;
+}
+
+.title {
+    display:flex;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin: 8px 0;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border: 3px solid blue;
+    border-radius: 25px;
+    height: 100px;
+    width: 100px;
+}
+
+.label {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100px;
+}
+
+/*Quote css*/
+
