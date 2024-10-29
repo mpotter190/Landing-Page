@@ -25,6 +25,7 @@ button {
     border-radius: 8px;
     background: #3882F6;
     padding: 8px 16px;
+    color: white;
 }
 
 /*header css*/
@@ -145,4 +146,29 @@ button {
     margin: 0 220px;
     font-weight: bold;
     justify-content: flex-end;
+}
+
+.signup {
+    display: flex;
+    margin: 8px 100px;
+    justify-content: space-between;
+    background-color: #3882F6;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.signupHeader {
+    color: white;
+    margin: 0 100px;
+}
+
+.signupContent {
+    color: white;
+    margin: 0 100px;
+}
+
+.signupButton {
+    margin: 0 100px;
+    border: 2px solid white;
+    border-radius: 5px;
 }
