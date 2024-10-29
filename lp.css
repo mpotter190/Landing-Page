@@ -126,4 +126,23 @@ button {
 }
 
 /*Quote css*/
+.quote {
+    display: flex;
+    margin: 8px 0;
+    flex-direction: column;
+    background-color: #e5e7EB;
+}
 
+.thorText {
+    font-size: 36px;
+    margin: 0 200px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thor {
+    display: flex;
+    margin: 0 220px;
+    font-weight: bold;
+    justify-content: flex-end;
+}
