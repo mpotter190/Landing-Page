@@ -37,7 +37,7 @@ button {
 
 .subheader{
     display: flex;
-    margin: 0 100px;
+    margin: 8px 100px;
     justify-content: space-between;
 }
 
@@ -171,4 +171,14 @@ button {
     margin: 0 100px;
     border: 2px solid white;
     border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    margin: 0 0;
+    background-color: darkblue;
+    height: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
 }
